@@ -7,6 +7,7 @@
 `emoji-ja`には下記の3種類のデータが含まれています。
 
 - `emoji_ja.json`: 絵文字に対応するキーワードやメタ情報
+- `emoji_ja2shortname_hira.json`: `emoji_ja.json`のショートネームをヒラガナ化
 - `group2emoji_ja.json`: 絵文字のグループ/サブグループに対応した絵文字のリスト
 - `keyword2emoji_ja.json`: 絵文字のキーワードに対応した絵文字のリスト
 
@@ -15,6 +16,7 @@
 ```
 data
 ├── emoji_ja.json
+├── emoji_ja2shortname_hira.json
 ├── group2emoji_ja.json
 └── keyword2emoji_ja.json
 ```
